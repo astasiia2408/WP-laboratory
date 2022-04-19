@@ -1,6 +1,5 @@
 .vscode/*
 !.vscode/settings.json
-!.vscode/prettierrc.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -11,3 +10,5 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+.prettierrc.json
