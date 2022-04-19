@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webprogrammer3</title>
+</head>
+<body>
+    <table width="60%" height="210" border="2">
+        <caption>Forms</caption>
+        <tr>
+            <th colspan="2">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <form action="" method="get" class="form">
+                    <div class="form">
+                        <input type="text" name="name" id="name" required>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+            <td>
+                <fieldset>
+                    <input type="radio" id="supreme" name="topping">
+                    <label for="topping">Supreme</label> <br/>
+                
+                    <input type="radio" id="vegetarian" name="topping">
+                    <label for="topping">Vegetarion</label> <br/>
+                
+                    <input type="radio" id="hawaiian" name="topping">
+                    <label for="topping">Hawaiian</label>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza Sauce</td>
+            <td>
+                <select name="choice">
+                    <option value="">----</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="pesto">Pesto</option>
+                    <option value="herb sauce">Herb Sauce</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Optional Extras</td>
+            <td>
+                <div class="preference">
+                    <input type="checkbox" name="cheese" id="cheese">
+                    <label for="cheese">Extra Cheese</label>
+                    <input type="checkbox" name="base" id="base">
+                    <label for="base">Gluten Free Base</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="story">Delivery Instructions:</label><br/>
+                <textarea id="story" name="story" rows="4" cols="35"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>Send my Order</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
