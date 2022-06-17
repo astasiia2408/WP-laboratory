@@ -1,1 +1,1 @@
-# WB-laboratory
+# WP-laboratory
