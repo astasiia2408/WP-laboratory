@@ -1,1 +1,1 @@
-# Gitignore
+# WP-laboratory
