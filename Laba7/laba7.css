@@ -1,0 +1,29 @@
+.Text {
+    background-color: #FFFFE0;
+    color: #FFD700;
+    width:300px;
+    height:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#Task1 {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#FFB6C1;
+    border: none;
+}
+#Task2 {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#FF1493;
+    border: none;
+}
+#Task3 {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #C71585;
+    border: none;
+}
