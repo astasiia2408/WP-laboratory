@@ -6,21 +6,21 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-#Task1 {
+#mission1 {
     width: 50px;
     height: 30px;
     border-radius: 10px;
     background-color:#FFB6C1;
     border: none;
 }
-#Task2 {
+#mission2 {
     width: 50px;
     height: 30px;
     border-radius: 10px;
     background-color:#FF1493;
     border: none;
 }
-#Task3 {
+#mission3 {
     width: 50px;
     height: 30px;
     border-radius: 10px;

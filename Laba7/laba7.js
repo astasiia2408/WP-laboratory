@@ -54,7 +54,7 @@ function numbers(){
   }
 }
 
-function chislo()
+function numeric()
 {
     let addit ;
     let x=6;
@@ -62,6 +62,6 @@ function chislo()
     console.log(addit);
 }
 
-Task1.addEventListener("click", argument, true)
-Task2.addEventListener("click", numbers, false)
-Task3.addEventListener("click", chislo, false)
+mission1.addEventListener("click", argument, true)
+mission2.addEventListener("click", numbers, false)
+mission3.addEventListener("click", numeric, false)
