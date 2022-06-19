@@ -1,0 +1,113 @@
+.grid {
+    align-self: center;
+    width: 800px;
+    display: flex;
+    margin: 30px 0px;
+    background-color: rgb(47, 79, 79);
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid img {
+    width: 25%;
+    height: 12%;
+    margin-left: 18px;
+    align-self: center;
+    border-radius: 12%;
+}
+
+.backside {
+    display: none;
+    background: black;
+    position: fixed;
+    top: 0;
+    margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sight {
+    display: block;
+}
+
+.sections {
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#close {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid gray;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    box-sizing: content-box;
+}
+
+.text {
+    background: #110810;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 450px;
+}
+
+.text img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.padding_block {
+    padding: 10px 15px;
+}
+
+.grey {
+    color: gray;
+}
+
+.textAling {
+    padding: 15% 15%;
+}
+
+.bot {
+    padding: 20px 0;
+    text-align: right;
+}
+
+.call {
+    width: 20px !important;
+}
+
+a {
+    padding: 15px;
+    background-color: #87ceeb;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border-color: gray;
+}
+
+p {
+    font-size: 17px;
+}
